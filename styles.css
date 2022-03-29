@@ -1,0 +1,23 @@
+h1 {
+    text-align:center;
+}
+
+body {
+  background-color: cyan;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset{
+    cursor: pointer;
+    position: absolute;
+    padding: 10px;
+    border-radius: 2em;
+    left: 48%;
+    top: 60%;
+    text-align: center;
+}

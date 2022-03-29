@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Snake Game</title>
+    <link href='styles.css' rel="stylesheet">
+    <link rel="icon" href="snake.png">
+  </head>
+
+  <body>
+  <h1>The classic snake game</h1>
+    <div id="score">0</div>
+    <div class="reset">
+    <button onClick="window.location.reload();">Restart</button> </div>
+    <canvas id="snakeboard" width="400" height="400"></canvas>
+    <style>
+      #snakeboard {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #score {
+        text-align: center;
+        font-size: 140px;
+
+      }
+    </style>
+  </body>
+  <script src="snakeGame.js"></script>
+  
+</html>
